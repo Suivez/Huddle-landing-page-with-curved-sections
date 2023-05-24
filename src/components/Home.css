@@ -1,0 +1,207 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    width: 500px;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 40px;
+}
+
+.get-started-btn {
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0px 7px 13px -9px rgba(66, 68, 90, 1);
+    color: white;
+    font-weight: 600;
+    padding: 25px 85px;
+    font-size: 1rem;
+    border: none;
+}
+
+.get-started-btn:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+.image-cover {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.image-cover img {
+    width: 80%;
+}
+
+.stats-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.stat-number {
+    font-size: 5rem;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+
+.stat-type {
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+}
+
+.grow-together-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.grow-together-container img {
+    width: 100%;
+}
+
+.grow-together-content {
+    display: flex;
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    padding: 0px 50px;
+}
+
+.grow-together-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grow-together-left p {
+    text-align: left;
+    width: 100%;
+}
+
+.grow-together-right {
+    width: 50%;
+    padding: 50px;
+}
+
+.flowing-conv-content {
+    width: 100%;
+    display: flex;
+    margin: 100px 0px;
+    padding: 0px 50px;
+}
+
+.flowing-conv-left {
+    width: 50%;
+    padding: 50px;
+}
+
+.flowing-conv-left img {
+    width: 100%;
+}
+
+.flowing-conv-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flowing-conv-right p {
+    text-align: left;
+    width: 100%;
+}
+
+.rdy-to-build-section {
+    text-align: center;
+    margin: 150px 0;
+}
+
+@media (max-width: 780px) {
+    h1 {
+        padding: 0 20px;
+    }
+
+    p {
+        text-align: center;
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .image-cover img {
+        width: 100%;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grow-together-content {
+        flex-wrap: wrap-reverse;
+        padding: 0 20px;
+    }
+
+    .grow-together-left,
+    .grow-together-right {
+        width: 100%;
+    }
+
+    .grow-together-right {
+        padding: 50px 0;
+    }
+
+    .grow-together-left p,
+    .grow-together-left h1 {
+        text-align: center !important;
+    }
+
+    .flowing-conv-content {
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+
+    .flowing-conv-left,
+    .flowing-conv-right {
+        width: 100%;
+    }
+
+    .flowing-conv-left {
+        padding: 50px 0;
+    }
+
+    .flowing-conv-right p,
+    .flowing-conv-right h1 {
+        text-align: center !important;
+    }
+
+    .get-started-btn {
+        padding: 18px 50px;
+    }
+
+    .stat-box {
+        margin: 60px 0;
+    }
+
+    .stats-container {
+        margin: 0;
+    }
+
+    .image-cover {
+        padding: 0 20px;
+        margin-top: 80px;
+    }
+}
